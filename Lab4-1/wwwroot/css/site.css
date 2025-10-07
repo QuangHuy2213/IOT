@@ -1,0 +1,193 @@
+/* ==== Global Settings ==== */
+html {
+    font-size: 14px;
+    scroll-behavior: smooth;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: #f5f7fa;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ==== Focus States ==== */
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem #fff, 0 0 0 0.25rem #258cfb;
+    outline: none;
+}
+
+/* ==== Navbar ==== */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    border-bottom: 1px solid #eaeaea;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: #007bff !important;
+    letter-spacing: 0.5px;
+}
+
+.nav-link {
+    color: #555 !important;
+    transition: color 0.2s ease;
+}
+
+    .nav-link:hover {
+        color: #007bff !important;
+    }
+
+/* ==== Card Styling ==== */
+.card {
+    border: none;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+    }
+
+.card-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e9ecef;
+    font-weight: 600;
+    color: #495057;
+    padding: 0.75rem 1.25rem;
+}
+
+.card-body {
+    padding: 1.25rem 1.5rem;
+}
+
+/* ==== Buttons ==== */
+.btn {
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+    .btn-primary:hover {
+        background-color: #0069d9;
+        border-color: #0062cc;
+    }
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+    .btn-danger:hover {
+        background-color: #c82333;
+        border-color: #bd2130;
+    }
+
+/* Toggle buttons for device controls */
+.btn-outline-primary, .btn-outline-warning {
+    border-width: 2px;
+}
+
+    .btn-outline-primary:hover {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    .btn-outline-warning:hover {
+        background-color: #ffc107;
+        color: #fff;
+    }
+
+/* ==== Layout Containers ==== */
+.main-container {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+/* ==== Chart Container ==== */
+#chart-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .1);
+}
+
+/* ==== Cards in Dashboard ==== */
+.device-card {
+    border-radius: 0.75rem;
+    background: #ffffff;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease-in-out;
+}
+
+    .device-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+    }
+
+/* ==== Badges ==== */
+.badge {
+    font-size: 0.85rem;
+    padding: 0.4em 0.6em;
+    border-radius: 0.4rem;
+}
+
+/* ==== Forms ==== */
+.form-control {
+    border-radius: 0.5rem;
+    border: 1px solid #ced4da;
+    transition: all 0.2s;
+}
+
+    .form-control:focus {
+        border-color: #80bdff;
+        box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+    }
+
+/* ==== Footer ==== */
+footer {
+    background-color: #ffffff;
+    border-top: 1px solid #e9ecef;
+    padding: 1rem 0;
+    text-align: center;
+    color: #6c757d;
+}
+
+/* ==== Animations ==== */
+@keyframes pulse {
+    0% {
+        background-color: rgba(0, 255, 0, 0.15);
+    }
+
+    100% {
+        background-color: transparent;
+    }
+}
+
+.updated {
+    animation: pulse 1s ease;
+}

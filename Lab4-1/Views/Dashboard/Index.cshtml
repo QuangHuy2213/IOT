@@ -1,0 +1,195 @@
+﻿@model Lab4_1.Models.DashboardViewModel
+@{
+    ViewData["Title"] = "MQTT Dashboard";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="~/css/dashboard.css" />
+
+<style>
+    body {
+        background: #f5f7fa;
+        font-family: "Poppins", sans-serif;
+    }
+
+    h1 {
+        font-weight: 600;
+        color: #2c3e50;
+    }
+
+    .main-header {
+        background: linear-gradient(135deg, #3498db, #2ecc71);
+        color: white;
+        padding: 1.2rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        margin-bottom: 2rem;
+    }
+
+    .card {
+        border: none;
+        border-radius: 15px;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+        }
+
+    .card-header {
+        font-weight: 600;
+        background: #ffffff;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    .sensor-card {
+        background: white;
+        padding: 1.2rem;
+    }
+
+    .sensor-title {
+        font-weight: 600;
+        color: #34495e;
+    }
+
+    .badge {
+        font-size: 0.85rem;
+    }
+
+    .sensor-item {
+        background: #f8f9fb;
+        border-radius: 10px;
+        padding: 0.6rem 1rem;
+        margin-bottom: 0.7rem;
+    }
+
+    .btn {
+        border-radius: 10px;
+        font-weight: 500;
+    }
+
+    #chart-container {
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .form-control {
+        border-radius: 10px;
+    }
+</style>
+
+<div class="container-fluid px-4 py-3">
+    <div class="main-header text-center">
+        <h1><i class="fas fa-tachometer-alt me-2"></i> MQTT Real-time Dashboard</h1>
+    </div>
+
+    <!-- Subscribe Form -->
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-plus-circle me-2 text-success"></i> Subscribe to a new Topic
+        </div>
+        <div class="card-body">
+            <form asp-action="Subscribe" method="post" class="row g-3 align-items-center">
+                <div class="col-md-4">
+                    <input type="text" name="name" class="form-control" placeholder="Tên cảm biến..." required>
+                </div>
+                <div class="col-md-5">
+                    <input type="text" name="description" class="form-control" placeholder="Mô tả..." required>
+                </div>
+                <div class="col-md-3 d-grid">
+                    <button type="submit" class="btn btn-primary"><i class="bi bi-wifi me-1"></i> Subscribe</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Device Cards -->
+    <div id="dashboard-data" class="row g-4">
+        @if (!Model.Devices.Any())
+        {
+            <div class="col-12 text-center text-muted">
+                <p>Không có thiết bị nào đang được giám sát.</p>
+            </div>
+        }
+        else
+        {
+            @foreach (var device in Model.Devices)
+            {
+                var safeId = device.Topic.Replace("/", "-");
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card sensor-card">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-cpu text-primary fs-5 me-2"></i>
+                                <span class="sensor-title">@device.Name</span>
+                            </div>
+                            <span class="badge bg-success" id="status-@safeId">Online</span>
+                        </div>
+
+                        <div class="sensor-item d-flex justify-content-between align-items-center">
+                            <div><i class="bi bi-thermometer-half text-danger me-2"></i>Temperature</div>
+                            <div id="temp-@safeId" class="fw-bold text-danger">-- °C</div>
+                        </div>
+
+                        <div class="sensor-item d-flex justify-content-between align-items-center">
+                            <div><i class="bi bi-droplet text-info me-2"></i>Humidity</div>
+                            <div id="humi-@safeId" class="fw-bold text-info">-- %</div>
+                        </div>
+
+                        <div class="sensor-item d-flex justify-content-between align-items-center">
+                            <div><i class="bi bi-lightbulb text-warning me-2"></i>LED</div>
+                            <div>
+                                <span class="badge bg-secondary" id="led-@safeId">OFF</span>
+                                <button class="btn btn-sm btn-outline-primary ms-2 toggle-led-btn" data-topic="@device.Topic">Toggle</button>
+                            </div>
+                        </div>
+
+                        <div class="sensor-item d-flex justify-content-between align-items-center">
+                            <div><i class="bi bi-fan text-primary me-2"></i>Fan</div>
+                            <div>
+                                <span class="badge bg-secondary" id="fan-@safeId">OFF</span>
+                                <button class="btn btn-sm btn-outline-primary ms-2 toggle-fan-btn" data-topic="@device.Topic">Toggle</button>
+                            </div>
+                        </div>
+
+                        <div class="text-end mt-2">
+                            <small class="text-muted" id="last-seen-@safeId">Last seen: --:--:--</small>
+                        </div>
+                        <div class="text-end mt-2">
+                            <button class="btn btn-sm btn-outline-danger delete-device-btn" data-topic="@device.Topic">
+                                <i class="bi bi-trash"></i> Delete
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+
+    <!-- Chart -->
+    <div class="card mt-5 p-4" id="chart-container">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h4 class="fw-semibold"><i class="fas fa-chart-line text-primary me-2"></i> Real-time Chart</h4>
+            <div>
+                <select id="topic-selector" class="form-select" style="width: 200px;">
+                    <option value="">-- Select Topic --</option>
+                </select>
+            </div>
+        </div>
+        <canvas id="realtimeChart"></canvas>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/8.0.0/signalr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+    <script>
+        var devices = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model.Devices));
+    </script>
+    <script src="~/js/dashboard.js"></script>
+}

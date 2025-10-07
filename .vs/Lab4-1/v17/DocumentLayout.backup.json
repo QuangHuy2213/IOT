@@ -1,0 +1,523 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\IOT\\Lab4-1\\Lab4-1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\wwwroot\\js\\dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\wwwroot\\js\\dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\repos\\devicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\repos\\devicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\controllers\\devicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\controllers\\devicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\services\\mqttclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\services\\mqttclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\hubs\\dashboardhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\hubs\\dashboardhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\migrations\\20250925040957_initialcreatemysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\migrations\\20250925040957_initialcreatemysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\data\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\data\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\data\\mqttsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\data\\mqttsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\repos\\telemetryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\repos\\telemetryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\models\\telemetrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\models\\telemetrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\models\\dhtdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\models\\dhtdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\models\\devicedatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\models\\devicedatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\data\\telemetry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\data\\telemetry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\data\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\data\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\lab4-1.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\lab4-1.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|d:\\iot\\lab4-1\\lab4-1\\lab4-1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6FF2B12-59AB-4886-A546-A46D822E2957}|Lab4-1\\Lab4-1.csproj|solutionrelative:lab4-1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Lab4-1\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Lab4-1\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAYwHsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T07:08:11.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Device.cs",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Data\\Device.cs",
+              "RelativeDocumentMoniker": "Lab4-1\\Data\\Device.cs",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Data\\Device.cs",
+              "RelativeToolTip": "Lab4-1\\Data\\Device.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T19:09:13.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250925040957_InitialCreateMySql.cs",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Migrations\\20250925040957_InitialCreateMySql.cs",
+              "RelativeDocumentMoniker": "Lab4-1\\Migrations\\20250925040957_InitialCreateMySql.cs",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Migrations\\20250925040957_InitialCreateMySql.cs",
+              "RelativeToolTip": "Lab4-1\\Migrations\\20250925040957_InitialCreateMySql.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCUAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T09:39:11.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DashboardHub.cs",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Hubs\\DashboardHub.cs",
+              "RelativeDocumentMoniker": "Lab4-1\\Hubs\\DashboardHub.cs",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Hubs\\DashboardHub.cs",
+              "RelativeToolTip": "Lab4-1\\Hubs\\DashboardHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T10:09:11.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DevicesController.cs",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Controllers\\DevicesController.cs",
+              "RelativeDocumentMoniker": "Lab4-1\\Controllers\\DevicesController.cs",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Controllers\\DevicesController.cs",
+              "RelativeToolTip": "Lab4-1\\Controllers\\DevicesController.cs",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAqwOgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T07:08:03.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeviceRepository.cs",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Repos\\DeviceRepository.cs",
+              "RelativeDocumentMoniker": "Lab4-1\\Repos\\DeviceRepository.cs",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Repos\\DeviceRepository.cs",
+              "RelativeToolTip": "Lab4-1\\Repos\\DeviceRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwCkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T19:10:23.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab4-1\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Lab4-1\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAAAMMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-06T07:41:34.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dashboard.js",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\wwwroot\\js\\dashboard.js",
+              "RelativeDocumentMoniker": "Lab4-1\\wwwroot\\js\\dashboard.js",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\wwwroot\\js\\dashboard.js",
+              "RelativeToolTip": "Lab4-1\\wwwroot\\js\\dashboard.js",
+              "ViewState": "AgIAAAwBAAAAAAAAAAAAABcBAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-06T07:41:38.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dashboard.css",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\wwwroot\\css\\dashboard.css",
+              "RelativeDocumentMoniker": "Lab4-1\\wwwroot\\css\\dashboard.css",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\wwwroot\\css\\dashboard.css",
+              "RelativeToolTip": "Lab4-1\\wwwroot\\css\\dashboard.css",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAowF0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-07T09:36:21.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Lab4-1\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Lab4-1\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwBEAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T19:09:05.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MqttSettings.cs",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Data\\MqttSettings.cs",
+              "RelativeDocumentMoniker": "Lab4-1\\Data\\MqttSettings.cs",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Data\\MqttSettings.cs",
+              "RelativeToolTip": "Lab4-1\\Data\\MqttSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T19:09:19.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Program.cs",
+              "RelativeDocumentMoniker": "Lab4-1\\Program.cs",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Program.cs",
+              "RelativeToolTip": "Lab4-1\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T19:21:08.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MqttClientService.cs",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Services\\MqttClientService.cs",
+              "RelativeDocumentMoniker": "Lab4-1\\Services\\MqttClientService.cs",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Services\\MqttClientService.cs",
+              "RelativeToolTip": "Lab4-1\\Services\\MqttClientService.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAqwK4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T19:21:15.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Lab4-1\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Lab4-1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T09:43:40.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TelemetryRepository.cs",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Repos\\TelemetryRepository.cs",
+              "RelativeDocumentMoniker": "Lab4-1\\Repos\\TelemetryRepository.cs",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Repos\\TelemetryRepository.cs",
+              "RelativeToolTip": "Lab4-1\\Repos\\TelemetryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T19:10:24.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TelemetryDto.cs",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Models\\TelemetryDto.cs",
+              "RelativeDocumentMoniker": "Lab4-1\\Models\\TelemetryDto.cs",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Models\\TelemetryDto.cs",
+              "RelativeToolTip": "Lab4-1\\Models\\TelemetryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T19:10:15.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Lab4-1\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Lab4-1\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T19:10:09.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DhtData.cs",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Models\\DhtData.cs",
+              "RelativeDocumentMoniker": "Lab4-1\\Models\\DhtData.cs",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Models\\DhtData.cs",
+              "RelativeToolTip": "Lab4-1\\Models\\DhtData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T19:10:03.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DeviceDataDto.cs",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Models\\DeviceDataDto.cs",
+              "RelativeDocumentMoniker": "Lab4-1\\Models\\DeviceDataDto.cs",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Models\\DeviceDataDto.cs",
+              "RelativeToolTip": "Lab4-1\\Models\\DeviceDataDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T19:09:58.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Telemetry.cs",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Data\\Telemetry.cs",
+              "RelativeDocumentMoniker": "Lab4-1\\Data\\Telemetry.cs",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Data\\Telemetry.cs",
+              "RelativeToolTip": "Lab4-1\\Data\\Telemetry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T19:09:32.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MongoDBSettings.cs",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Data\\MongoDBSettings.cs",
+              "RelativeDocumentMoniker": "Lab4-1\\Data\\MongoDBSettings.cs",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Data\\MongoDBSettings.cs",
+              "RelativeToolTip": "Lab4-1\\Data\\MongoDBSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T19:09:20.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Models\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "Lab4-1\\Models\\DashboardViewModel.cs",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Models\\DashboardViewModel.cs",
+              "RelativeToolTip": "Lab4-1\\Models\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T10:14:11.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab4-1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Lab4-1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T09:38:25.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Lab4-1\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Lab4-1\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T09:38:33.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Lab4-1\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Lab4-1\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T09:38:40.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\appsettings.json",
+              "RelativeDocumentMoniker": "Lab4-1\\appsettings.json",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\appsettings.json",
+              "RelativeToolTip": "Lab4-1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-06T06:46:42.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Lab4-1.csproj.Backup.tmp",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Lab4-1.csproj.Backup.tmp",
+              "RelativeDocumentMoniker": "Lab4-1\\Lab4-1.csproj.Backup.tmp",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Lab4-1.csproj.Backup.tmp",
+              "RelativeToolTip": "Lab4-1\\Lab4-1.csproj.Backup.tmp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-07T18:35:07.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Lab4-1\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Lab4-1\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T09:38:41.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Lab4-1\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Lab4-1\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAswMEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-07T09:38:51.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "Lab4-1\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\IOT\\Lab4-1\\Lab4-1\\Lab4-1\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "Lab4-1\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-07T09:39:29.478Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
